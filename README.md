@@ -14,7 +14,7 @@ Server for mobilenet image classification using tensorflow
 Clone the repo and install the dependencies.
 
 ```bash
-git clone https://github.com/nyankahmensah/server-template.git
+git clone git@github.com:10688182/ImageRecognitionServer.git tensor-server
 cd tensor-server
 ```
 
