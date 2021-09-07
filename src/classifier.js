@@ -19,7 +19,7 @@ class MobilenetClassification {
     return this.model;
   };
 
-  async classify(imageBuffer, topk = 3) {
+  async classify(imageBuffer, topk = 5) {
     if (!this.model) {
       await this.loadModel();
     };
